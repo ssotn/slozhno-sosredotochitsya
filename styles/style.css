@@ -75,12 +75,32 @@
   margin-block-start: 80px; /*margin-top*/
 }
 
+.section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.section__list_item {
+  display: inherit;
+  flex-direction: inherit;
+  gap: 10px
+}
+
 .section_why {
   margin-block-start: 60px
 }
 
 .section_what {
   grid-template-columns: auto;
+}
+
+.section_what .section__list {
+  flex-direction: row;
+}
+
+.section_what .section__list_item {
+  flex-direction: column;
 }
 
 .section_how {
@@ -95,6 +115,8 @@
 .section_gallery {
   grid-template-columns: auto;
 }
+
+
 
 .footer {
   display: flex;
