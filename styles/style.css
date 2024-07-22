@@ -45,6 +45,15 @@
   line-height: 23px;
 }
 
+.section__title {
+  color: var(--accent-color);
+  background-color: inherit;
+}
+
+.advice_list__title {
+  font-weight: 400;
+}
+
 .header__theme-menu {
   display: inherit;
   justify-self: center;
