@@ -39,6 +39,36 @@
   gap: 10px;
 }
 
+.header__theme-menu-button {
+  display: inherit;
+  min-height: 26px;
+  border: none;
+  padding: 0px 13px;
+  color: var(--accent-color);
+  line-height: 18px;
+  text-transform: lowercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--button-hover-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+  outline: none;
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color);
+  pointer-events: none;
+}
+
 .main_title {
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--accent-color);
