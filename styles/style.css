@@ -35,6 +35,15 @@
   line-height: 82.5%;
 }
 
+.title_decoration {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
 
 .header__theme-menu {
   display: inherit;
