@@ -48,6 +48,11 @@
   line-height: 82.5%;
 }
 
+.header .main_title {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
 .title_decoration {
   color: var(--background-color);
   background-color: var(--accent-color);
@@ -56,6 +61,11 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
+}
+
+.header .title_decoration {
+  grid-column-start: 2;
+  justify-self: end;
 }
 
 .section__title {
