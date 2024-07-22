@@ -108,15 +108,14 @@
 }
 
 .section_how__container {
-  display: flex;
+  display: flex;  
   flex-direction: column;
+  gap: 20px;
 }
 
 .section_gallery {
   grid-template-columns: auto;
 }
-
-
 
 .footer {
   display: flex;
