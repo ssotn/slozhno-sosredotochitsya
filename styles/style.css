@@ -58,6 +58,24 @@
   border-left: 1px solid var(--accent-color);
 }
 
+.decorated_link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0px var(--accent-color);
+}
+
+.decorated_link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.decorated_link:focus {
+  border: 1px solid var(--text-color);
+  outline: none;
+}
+
+.decorated_link:active {
+  border: 1px solid var(--text-color);
+}
+
 .header {
   position: relative;
   display: grid;
