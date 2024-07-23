@@ -18,6 +18,16 @@
   --text-color: #353430;
 }
 
+.theme_light .decorated-zone::before {
+  border-top: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+}
+
+.theme_light .decorated-zone::after {
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+}
+
 .theme_light .title_decoration {
   color: var(--text-color);
 }
@@ -33,4 +43,8 @@
 .theme_light .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--text-color);
   outline: none;
+}
+
+.theme_light .decorative_element {
+  display: none;
 }
