@@ -9,5 +9,43 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff0070;
+  --font-family: IBM Plex Mono;
   --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+
+  --text-color: #f1b2ce;
+  --title-color: #DB00FF;
+
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+}
+
+.theme_dark .decorated-zone::before {
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+.theme_dark .decorated-zone::after {
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}
+
+.theme_dark .title_decoration {
+  color: var(--background-color);
+}
+
+.theme_dark .header__theme-menu-button {
+  color: var(--accent-color);
+}
+
+.theme_dark .header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color);;
+}
+
+.theme_dark .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+  outline: none;
+}
+
+.theme_dark .decorative_element {
+  display: initial;
 }
