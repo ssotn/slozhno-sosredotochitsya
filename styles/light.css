@@ -10,4 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+
 }
