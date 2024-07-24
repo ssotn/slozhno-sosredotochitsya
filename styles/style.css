@@ -8,7 +8,7 @@
   font-weight: normal;
   font-size: 18px;
   font-style: normal;
-  line-height: 23px;
+  line-height: 23.4px;
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-attachment: fixed;
@@ -84,6 +84,7 @@
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   height: 100vh;
+  padding-block-end: 40px;
   min-block-size: 668px;
 }
 
@@ -141,6 +142,7 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-style: normal;
   line-height: 82.5%;
+  margin-left: -20px;
 }
 
 .header .main_title {
@@ -155,7 +157,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .header .title_decoration {
@@ -174,7 +176,7 @@
 
 .section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 66%;
   gap: 20px;
   margin-block-start: 80px; /*margin-top*/
 }
@@ -191,8 +193,14 @@
   gap: 10px
 }
 
+.section__list_item article {
+  display: inherit;
+  flex-direction: inherit;
+  gap: inherit;
+}
+
 .section_why {
-  margin-block-start: 60px
+  margin-block-start: 40px
 }
 
 .section_what {
@@ -257,6 +265,7 @@
   align-items: center;
   height: 100vh;
   min-block-size: 668px;
+  margin-block-start: 40px
 }
 
 .footer.decorated-zone::before {
