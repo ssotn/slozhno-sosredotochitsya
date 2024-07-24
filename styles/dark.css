@@ -30,7 +30,7 @@
 }
 
 .theme_dark .title_decoration {
-  color: var(--background-color);
+  color: var(--accent-color);
 }
 
 .theme_dark .header__theme-menu-button {
