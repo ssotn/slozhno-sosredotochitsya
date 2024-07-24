@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --accent-color: #ff8dcb;  
+  --accent-color: #ff8dcb; 
   --button-hover-color: rgba(50, 49, 45, 0.4);
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
@@ -51,43 +51,43 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;  
+    --accent-color: #ff8dcb; 
     --button-hover-color: rgba(50, 49, 45, 0.4);
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
   
     --title-color: #ffc2e6;
     --text-color: #353430;  
-    }
+  }
 
-    .decorated-zone::before {
-      border-top: 1px solid var(--text-color);
-      border-right: 1px solid var(--text-color);
-    }
-    
-    .decorated-zone::after {
-      border-bottom: 1px solid var(--text-color);
-      border-left: 1px solid var(--text-color);
-    }
-    
-    .title_decoration {
-      color: var(--text-color);
-    }
-    
-    .header__theme-menu-button {
-      color: var(--text-color);
-    }
-    
-    .header__theme-menu-button_active {
-      outline: 1px solid var(--text-color);
-    }
-    
-    .header__theme-menu-button:focus-visible {
-      border-bottom: 1px solid var(--text-color);
-      outline: none;
-    }
-    
-    .decorative_element {
-      display: none;
-    }
+  .decorated-zone::before {
+    border-top: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
+  }
+  
+  .decorated-zone::after {
+    border-bottom: 1px solid var(--text-color);
+    border-left: 1px solid var(--text-color);
+  }
+  
+  .title_decoration {
+    color: var(--text-color);
+  }
+  
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+  
+  .header__theme-menu-button_active {
+    outline: 1px solid var(--text-color);
+  }
+  
+  .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--text-color);
+    outline: none;
+  }
+  
+  .decorative_element {
+    display: none;
+  }
 }
