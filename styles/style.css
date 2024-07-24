@@ -30,6 +30,7 @@
 .decorative_element::after {
   content: "";
   position: absolute;
+  inset: 0 -20px auto auto;
   width: 9px;
   height: 9px;
   margin: 8px 0 0 10px;
