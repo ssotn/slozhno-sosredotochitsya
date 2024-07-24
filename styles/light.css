@@ -59,7 +59,7 @@
     --title-color: #ffc2e6;
     --text-color: #353430;  
   }
-
+  
   .decorated-zone::before {
     border-top: 1px solid var(--text-color);
     border-right: 1px solid var(--text-color);

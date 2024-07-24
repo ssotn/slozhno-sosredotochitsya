@@ -30,7 +30,12 @@
 }
 
 .theme_dark .title_decoration {
+  color: var(--background-color);
+}
+
+.theme_dark .section__title {
   color: var(--accent-color);
+  background-color: inherit;
 }
 
 .theme_dark .header__theme-menu-button {
