@@ -276,12 +276,13 @@
   align-items: center;
   height: 100vh;
   min-block-size: 668px;
-  margin-block-start: 60px;
+  margin-block-start: 40px;
+  padding-block-start: 40px;
   padding-left: 20px;
 }
 
 .footer.decorated-zone::before {
-  inset: 45px 0 auto auto;
+  inset: 40px 0 auto auto;
 }
 
 @media (width < 1024px) {
@@ -365,9 +366,9 @@
   }
 
   .footer {
-    margin-inline-start: 20px;
-    margin-block-start: 40px; /*margin-top*/
-    padding: 10px;
+    margin-block-start: 30px;
+    padding-block-start: 20px;
+    padding-left: 20px;
   }
 
   .footer.decorated-zone::before {
