@@ -303,7 +303,6 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  
 }
 
 @media (width < 768px) {
@@ -319,7 +318,16 @@
     inset: auto auto 20px 0;
   }
 
+  .header__theme-menu {
+    padding-block-start: 20px;
+  }
+
+  .header .main_title {
+    padding: 20px 0 0 20px;
+  }
+
   .header .title_decoration {
+    margin-block-start: 20px;
     grid-column-start: 1;
     grid-column-end: span 2;
     justify-self: end;
@@ -331,7 +339,15 @@
   }
 
   .section_why {
-    margin-block-start: 60px /*margin-top*/
+    margin-block-start: 30px /*margin-top*/
+  }
+
+  .section_what {
+    grid-template-columns: 90%;
+  }
+
+  .section_gallery {
+    gap: 10px;
   }
 
   .section_gallery__list {
