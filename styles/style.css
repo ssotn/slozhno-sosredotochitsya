@@ -153,7 +153,7 @@
 .title_decoration {
   color: var(--background-color);
   background-color: var(--accent-color);
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBM Plex Mono', monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -204,15 +204,23 @@
 }
 
 .section_what {
-  grid-template-columns: auto;
+  display: grid;
+  grid-template-columns: 1fr 66%;
+  row-gap: 20px;
 }
 
 .section_what .section__list {
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  column-gap: 20px;
 }
 
 .section_what .section__list_item {
+  display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .section_how {
