@@ -290,13 +290,20 @@
     flex-direction: column;
   }
 
-  .section_what .section__list {
-    flex-direction: column;
+  .section .section_what {
+    grid-template-columns: 1fr 70%;
   }
 
-  .section .section_what {
-    flex-direction: column;
+  .section_what .section__list {
+    grid-template-columns: 100%;
+    gap: 20px;
   }
+
+  .section_how {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  
 }
 
 @media (width < 768px) {
